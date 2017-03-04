@@ -14,7 +14,8 @@ AWS lambda template for python (with local package deployment using cli). Starte
 
 ## Packaging & Deployment
 - package the code using package.sh. This will create the upload zip file
-- deploy will deploy the zip to aws
+- deploy_new.sh: will deploy the zip to aws, and create a new functions 
+- deploy_update.sh: deploy to update a function script
 
 ## Testing
 - test.sh can be used to execute the test output will be produced locally
